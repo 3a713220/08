@@ -1,0 +1,20 @@
+＃包括 “ stdio.h中”
+＃包括 “ stdlib.h中”
+int  main（）
+{
+	int k，j;
+	printf（“ ijgoirgjirjg：”）;
+	scanf（“％d ”，＆j）;
+	   for（int e = 2 ; e <= j; e ++）
+{
+	 k = 0 ;
+    for（int r = 1 ; r <= j; r ++）
+        if（e％r == 0）
+            ķ++;
+            if（k == 2）
+		        printf（“％d \ t ”，e）;
+}
+    printf（“ \ n ”）;
+    系統（“暫停”）;
+    返回 0 ;
+}
